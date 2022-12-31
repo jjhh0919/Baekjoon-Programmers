@@ -3,7 +3,6 @@ function solution(num_list, n) {
 
   while (num_list.length) {
     array.push(num_list.splice(0, n));
-    console.log(num_list);
   }
 
   return array;
